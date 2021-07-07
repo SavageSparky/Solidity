@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "recipient",
+						"type": "address"
+					}
+				],
+				"name": "transact",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"simpleTransaction.sol": "transaction"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"simpleTransaction.sol": {
+			"keccak256": "0xed916d35ca9fc5ac897095b877f9d6fab7df45bc5c00f949bac7468831040e09",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://bf0f00ea1d4fa06d8db028299559361e8d8eab3c644d9690d6b5c32a6b4ee8cd",
+				"dweb:/ipfs/Qmew9TsX5rLEFTq9LWzek8hLkQBzs3PV9BQrsURrwUYQuU"
+			]
+		}
+	},
+	"version": 1
+}
